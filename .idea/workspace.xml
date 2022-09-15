@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80755c46-2254-4703-baeb-b32c1994c1c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/StudentAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/App.java" afterDir="false" />
     </list>
@@ -101,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663218860924</updated>
-      <workItem from="1663218862389" duration="15179000" />
+      <workItem from="1663218862389" duration="16297000" />
     </task>
     <servers />
   </component>

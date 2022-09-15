@@ -46,7 +46,8 @@ public class App
         session.save(student);
         session.save(studentAddress);
         transaction.commit();
-
+        student = (Student) session.get(Student.class,0);// to fetch the data from db
+        System.out.println("Student"+student);
         session.close();
     }
 }
