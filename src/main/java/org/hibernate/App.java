@@ -37,8 +37,11 @@ public class App
         fileInputStream.read(data);
         studentAddress.setImage(data);
 
-
-
+        StudentCertificate studentCertificate = new StudentCertificate();
+        studentCertificate.setCourse("backend");
+        studentCertificate.setCourseDuration("2 Months");
+        student.setStudentCertificate(studentCertificate);
+        System.out.println(studentCertificate);
 
         Session session = sessionFactory.openSession();
 
@@ -47,7 +50,7 @@ public class App
         session.save(studentAddress);
         transaction.commit();
         student = (Student) session.get(Student.class,0);// to fetch the data from db
-        System.out.println("Student"+student);
+        System.out.println("Student "+student);
         session.close();
     }
 }

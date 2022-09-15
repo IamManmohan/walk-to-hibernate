@@ -11,6 +11,16 @@ public class Student {
     private String name;
     private String city;
 
+    private StudentCertificate studentCertificate;
+
+    public StudentCertificate getStudentCertificate() {
+        return studentCertificate;
+    }
+
+    public void setStudentCertificate(StudentCertificate studentCertificate) {
+        this.studentCertificate = studentCertificate;
+    }
+
     public Student(int id, String name, String city) {
         this.id = id;
         this.name = name;
@@ -37,6 +47,16 @@ public class Student {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", city='" + city + '\'' +
+                ", studentCertificate=" + studentCertificate +
+                '}';
+    }
+
     public String getCity() {
         return city;
     }
@@ -45,12 +65,4 @@ public class Student {
         this.city = city;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", city='" + city + '\'' +
-                '}';
-    }
 }
