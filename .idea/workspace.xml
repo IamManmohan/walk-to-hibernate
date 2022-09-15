@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80755c46-2254-4703-baeb-b32c1994c1c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/StudentCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/SubjectiveAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/SubjectiveQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hibernate/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hibernate/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -99,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663218860924</updated>
-      <workItem from="1663218862389" duration="18188000" />
+      <workItem from="1663218862389" duration="26151000" />
     </task>
     <servers />
   </component>
@@ -123,6 +126,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.hibernate.MappingException" package="org.hibernate" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.AnnotationException" package="org.hibernate" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
